@@ -1,0 +1,106 @@
+# Hugging Face 오디오 강좌에 오신 것을 환영합니다!
+
+수강생 여러분,
+
+오디오용 트랜스포머(Transformer) 사용에 대한 강좌에 오신 것을 환영합니다. 
+트랜스포머는 자연어 처리, 컴퓨터 비전, 최근에는 오디오 처리 등 다양한 작업에서 최첨단 결과를 얻을 수 있는 
+가장 강력하고 다재다능한 딥러닝 아키텍처 중 하나임이 여러 차례 입증된 바 있습니다.
+
+이 강좌에서 우리는 오디오 데이터에 트랜스포머 모델을 적용하는 방법을 살펴봅니다. 다양한 오디오 관련 작업을 처리하는 데 사용하는 방법에 대해 배우게 됩니다.
+음성 인식(speech recognition), 오디오 분류(audio classification) 또는 텍스트에서 음성 생성(generating speech from text)에 관심이 있다면 트랜스포머와 이 강좌를 통해 모든 것을 해결할 수 있습니다.
+
+아래 데모에서 영어 문장을 말하면 모델이 실시간으로 받아쓰는 모습을 직접 확인해보세요!
+
+<iframe
+	src="https://openai-whisper.hf.space"
+	frameborder="0"
+	width="850"
+	height="450">
+</iframe>
+
+이 강좌를 통해 오디오 데이터 작업의 세부 사항을 이해하고, 다양한 트랜스포머 아키텍처에 대해 배우게 되며
+사전 학습된(Pre-trained) 모델을 활용하여 자신만의 오디오 트랜스포머를 학습할 수 있습니다. 
+
+이 과정은 딥러닝에 대한 배경 지식이 있고 트랜스포머에 대해 전반적으로 익숙한 학습자를 위해 설계되었습니다.
+오디오 데이터 처리에 대한 전문 지식이 필요하지 않습니다.
+트랜스포머에 대한 이해가 더 필요하다면 트랜스포머의 기본 사항에 대해 자세히 설명하는 [NLP 과정](https://huggingface.co/course/chapter1/1)을 확인하시기 바랍니다.
+
+## 강좌 팀을 만나보세요!
+
+**Sanchit Gandhi, Machine Learning Research Engineer at Hugging Face**
+
+Hi! I'm Sanchit and I'm a machine learning research engineer for audio in the open-source team at Hugging Face 🤗.
+My primary focus is automatic speech recognition and translation, with the current goal of making speech models faster,
+lighter and easier to use.
+
+**Matthijs Hollemans, Machine Learning Engineer at Hugging Face**
+
+I'm Matthijs, and I'm a machine learning engineer for audio in the open source team at Hugging Face. I'm also the author 
+of a book on how to write sound synthesizers, and I create audio plug-ins in my spare time.
+
+**Maria Khalusova, Documentation & Courses at Hugging Face**
+
+I'm Maria, and I create educational content and documentation to make Transformers and other open-source tools even more 
+accessible. I break down complex technical concepts and help folks get started with cutting-edge technologies.
+
+**Vaibhav Srivastav, ML Developer Advocate Engineer at Hugging Face**
+
+I'm Vaibhav (VB) and I'm a Developer Advocate Engineer for Audio in the Open Source team at Hugging Face. I research 
+low-resource Text to Speech and help bring SoTA speech research to the masses.
+
+## 강좌 구조
+
+이 강좌는 다양한 주제를 심도 있게 다루는 여러 단원으로 구성되어 있습니다:
+
+* 1단원: 오디오 처리 기술 및 데이터 준비 등 오디오 데이터 작업의 구체적인 사항에 대해 알아보세요.
+* 2단원: 오디오 애플리케이션에 대해 알아보고 오디오 분류 및 음성인식과 같은 다양한 작업에 🤗 트랜스포머 파이프라인을 사용하는 방법을 알아보세요. 
+* 3단원: 오디오 트랜스포머 아키텍처를 살펴보고, 각 아키텍처가 어떻게 다른지, 어떤 작업에 가장 적합한지 알아보세요.
+* 4단원: 나만의 음악 장르 분류기(music genre classifier)를 만드는 방법을 알아보세요.
+* 5단원: 음성 인식에 대해 자세히 알아보고 회의 녹음을 전사(transcribe meeting recordings)하는 모델을 구축하세요.
+* 6단원: 텍스트에서 음성(generate speech from text)을 생성하는 방법을 알아보세요.
+* 7단원: 트랜스포머를 사용하여 오디오를 오디오로 변환하는 방법을 알아보세요.
+
+각 단원에는 기본 개념과 기술을 깊이 있게 이해할 수 있는 이론적 구성 요소가 포함되어 있습니다. 
+과정 전반에 걸쳐 지식을 테스트하고 학습을 강화하는 데 도움이 되는 퀴즈를 제공합니다.
+또한 일부 단원에는 배운 내용을 적용해 볼 수 있는 실습도 포함되어 있습니다.
+
+이 강좌를 마치면 오디오 데이터에 트랜스포머를 사용하는 강력한 기반을 갖추게 되며
+다양한 오디오 관련 작업에 이러한 기술을 적용할 수 있는 역량을 갖추게 됩니다.
+
+강좌의 단원은 아래와 같은 게시 일정에 따라 여러 블록으로 연속적으로 릴리즈됩니다:
+
+| 단원   | 게시 일정 |
+|---|-----------------|
+| 0단원, 1단원, 2단원  | June 14, 2023   |
+| 3단원, 4단원  | June 21, 2023   |
+| 5단원  | June 28, 2023   |
+| 6단원  | July 5, 2023    |
+| 7단원, 8단원  | July 12, 2023   |
+
+[//]: # (| Bonus Unit  | TBD             |)
+
+## 학습 인증 및 인증
+
+이 강좌를 수강하는 데 옳고 그른 방법은 없습니다. 이 강좌의 모든 자료는 100% 무료이며 공개 및 오픈 소스입니다.
+자신의 속도에 맞춰 수강할 수 있지만, 단원을 순서대로 살펴보는 것이 좋습니다.
+
+강좌 수료 후 인증을 받고 싶다면 두 가지 옵션을 제공합니다:
+
+| 인증 종류   | 요구사항                                                                                  |
+|---|------------------------------------------------------------------------------------------------|
+| 수료 인증서  | 2023년 7월 말까지 지침에 따라 실습의 80%를 완료하세요.  |
+| 명예 인증서 | 2023년 7월 말까지 지침에 따라 실습 문제를 100% 완료하세요. |
+
+각 실습에는 완료 기준이 간략하게 설명되어 있습니다.
+자격을 갖추기 위한 실습을 충분히 완료했다면, 강좌의 마지막 단원을 참조하여 인증서를 취득하는 방법을 알아보세요. 
+행운을 빕니다!
+
+## 강좌 등록하기
+
+이 강좌의 단원은 몇 주에 걸쳐 점진적으로 공개될 예정입니다. 
+새로운 단원이 출시되면 놓치지 않도록 강좌 업데이트에 등록하여 새 단원이 릴리즈될 때 놓치지 않도록 하시기 바랍니다. 
+강좌 업데이트에 등록한 학습자는 저희가 주최할 계획인 특별한 소셜 이벤트에 대해 가장 먼저 알게 되는 혜택을 받게 됩니다.
+
+[강좌 등록하기](http://eepurl.com/insvcI)
+
+즐거운 강좌 되시기 바랍니다!

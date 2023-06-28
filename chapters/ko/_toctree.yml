@@ -1,0 +1,163 @@
+- title: 0단원. 이번 강좌에 오신것을 환영합니다!
+  sections:
+  - local: chapter0\introduction
+    title: 강좌에서 기대할 수 있는 것
+  - local: chapter0\get_ready
+    title: 준비하기
+  - local: chapter0\community
+    title: 커뮤니티에 참여하기
+
+- title: 1단원. 오디오 데이터로 작업하기
+  sections:
+  - local: chapter1\introduction
+    title: 배울 내용
+  - local: chapter1\audio_data
+    title: 오디오 데이터에 대한 설명
+  - local: chapter1\load_and_explore
+    title: 오디오 데이터셋을 불러오고 탐색하기
+  - local: chapter1\preprocessing
+    title: 오디오 데이터 전처리 과정
+  - local: chapter1\streaming
+    title: 오디오 데이터 스트리밍
+  - local: chapter1\quiz
+    title: 퀴즈
+    quiz: 1
+  - local: chapter1\supplemental_reading
+    title: 추가 자료
+
+- title: 2단원. 오디오 응용 프로그램에 대한 소개
+  sections:
+  - local: chapter2\introduction
+    title: 오디오 응용 프로그램 살펴보기
+  - local: chapter2\audio_classification_pipeline
+    title: 파이프라인을 통한 오디오 분류(classification)
+  - local: chapter2\asr_pipeline
+    title: 파이프라인을 통한 자동 음성 인식(speech recognition)
+  - local: chapter2\hands_on
+    title: 실습
+
+- title: 3단원. 오디오를 위한 트렌스포머 아키텍처
+  sections:
+  - local: chapter3\introduction
+    title: 트랜스포머 모델에 대한 개요
+  - local: chapter3\ctc
+    title: CTC 아키텍처
+  - local: chapter3\seq2seq
+    title: Seq2Seq 아키텍처
+  - local: chapter3\classification
+    title: 오디오 분류 아키텍처들
+  - local: chapter3\quiz
+    title: 퀴즈
+    quiz: 3
+  - local: chapter3\supplemental_reading
+    title: 추가 자료
+
+- title: 단원 4. 음악 장르 분류기 만들기
+  sections:
+  - local: chapter4\introduction
+    title: 무엇을 배우고 무엇을 만드는지
+  - local: chapter4\classification_models
+    title: 음악 분류를 위한 사전학습(Pre-trained) 모델
+  - local: chapter4\fine-tuning
+    title: 음악 분류를 위한 모델 파인튜닝(Fine-tuning)
+  - local: chapter4\demo
+    title: Gradio를 통한 데모 제작
+  - local: chapter4\hands_on
+    title: 실습 
+
+#- title: Unit 5. Transcribe a meeting recording
+#  sections:
+#  - local: chapter5/introduction
+#    title: What you'll learn and what you'll build
+#  - local: chapter5/choosing_dataset
+#    title: Choosing a dataset
+#  - local: chapter5/asr_models
+#    title: Pre-trained models for automatic speech recognition
+#  - local: chapter5/preprocessing_data
+#    title: Loading and preprocessing data
+#  - local: chapter5/evaluation
+#    title: Evaluation metrics for ASR
+#  - local: chapter5/fine-tuning
+#    title: Fine-tuning the ASR model
+#  - local: chapter5/speaker_diarization
+#    title: Automatic speech recognition with speaker diarization
+#  - local: chapter5/quiz
+#    title: Quiz
+#    quiz: 5
+#  - local: chapter5/hands_on
+#    title: Hands-on exercise
+#  - local: chapter5/supplemental_reading
+#    title: Supplemental reading and resources
+#
+#- title: Unit 6. From text to speech
+#  sections:
+#  - local: chapter6/introduction
+#    title: What you'll learn and what you'll build
+#  - local: chapter6/overview
+#    title: How to synthesize human speech from text?
+#  - local: chapter6/choosing_dataset
+#    title: Choosing a dataset
+#  - local: chapter6/preprocessing
+#    title: Loading and preprocessing data
+#  - local: chapter6/pre-trained_models
+#    title: Pre-trained models for text-to-speech
+#  - local: chapter6/evaluation
+#    title: Evaluation metrics for text-to-speech
+#  - local: chapter6/fine-tuning
+#    title: Fine-tuning SpeechT5
+#  - local: chapter6/quiz
+#    title: Quiz
+#    quiz: 6
+#  - local: chapter6/hands_on
+#    title: Hands-on exercise
+#  - local: chapter6/supplemental_reading
+#    title: Supplemental reading and resources
+#
+#- title: Unit 7. Audio to audio
+#  sections:
+#  - local: chapter7/introduction
+#    title: What you'll learn and what you'll build
+#  - local: chapter7/tasks
+#    title: Examples of audio-to-audio tasks
+#  - local: chapter7/choosing_dataset
+#    title: Choosing a dataset
+#  - local: chapter7/preprocessing
+#    title: Loading and preprocessing data
+#  - local: chapter7/evaluation
+#    title: Evaluation metrics for audio-to-audio
+#  - local: chapter7/fine-tuning
+#    title: Fine-tuning the model
+#  - local: chapter7/quiz
+#    title: Quiz
+#    quiz: 7
+#  - local: chapter7/hands_on
+#    title: Hands-on exercise
+#  - local: chapter7/supplemental_reading
+#    title: Supplemental reading and resources
+#
+#- title: Unit 8. Finish line
+#  sections:
+#  - local: chapter8/introduction
+#    title: Congratulations!
+#  - local: chapter8/certification
+#    title: Get your certification of completion
+#  - local: chapter8/stay_in_touch
+#    title: Stay in touch
+#
+#- title: Bonus unit. Diffusion models for audio
+#  sections:
+#  - local: chapter9/introduction
+#    title: Introduction
+#  - local: chapter9/music_generation
+#    title: Music generation
+#  - local: chapter9/riffusion
+#    title: Riffusion
+#  - local: chapter9/audioldm
+#    title: AudioLDM
+#  - local: chapter9/dance_diffusion
+#    title: Dance Diffusion
+
+- title: 강좌 이벤트
+  sections:
+  - local: events\introduction
+    title: 라이브 세션과 워크샵
